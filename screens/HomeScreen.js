@@ -17,8 +17,8 @@ export default class HomeScreen extends Component{
   getWord=(word)=>{
     var searchKeyword=word.toLowerCase()
     var url;
-    //url ="https://rupinwhitehatjr.github.io/dictionary/searchKeyword.json"
-    url = "https://rupinwhitehatjr.github.io/dictionary/"+ +".json"
+    //url = "https://rupinwhitehatjr.github.io/dictionary/searchKeyword.json"
+    //url = "https://rupinwhitehatjr.github.io/dictionary/"+ +".json"
     //url = "https://rupinwhitehatjr.github.io/dictionary/"+searchKeyword+".json"
     //url = "https://rupinwhitehatjr.github.io/dictionary/"+word+".json"
 
@@ -88,7 +88,7 @@ export default class HomeScreen extends Component{
            }}
         />
   
-     {   <input 
+     {/*   <input 
            onChangeText={text => {
               this.setState({
                 text: text,
@@ -100,8 +100,8 @@ export default class HomeScreen extends Component{
               });
            }}
         /> 
-         }
-      {/*
+        */}
+      {
       <TouchableOpacity 
            onChangeText={text => {
               this.setState({
@@ -114,7 +114,7 @@ export default class HomeScreen extends Component{
               });
            }}
         /> 
-      */}
+      }
       {/*
           <TextInput
             style={styles.inputBox}
