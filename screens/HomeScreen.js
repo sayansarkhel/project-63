@@ -101,7 +101,7 @@ export default class HomeScreen extends Component{
            }}
         /> 
         */}
-      {
+      {/*
       <TouchableOpacity 
            onChangeText={text => {
               this.setState({
@@ -114,8 +114,8 @@ export default class HomeScreen extends Component{
               });
            }}
         /> 
-      }
-      {/*
+      */}
+      {
           <TextInput
             style={styles.inputBox}
             onChangeText={text => {
@@ -130,7 +130,7 @@ export default class HomeScreen extends Component{
             }}
             value={this.state.text}
           />
-  ``````*/}
+  /}
           <TouchableOpacity
             style={styles.searchButton}
             onPress={() => {
